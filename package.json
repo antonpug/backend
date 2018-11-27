@@ -1,0 +1,24 @@
+{
+    "name": "quoting-backend",
+    "version": "0.0.1",
+    "wolkenkit": {
+      "application": "quoting-backend",
+      "runtime": {
+        "version": "2.0.0"
+      },
+      "environments": {
+        "default": {
+          "api": {
+            "address": {
+              "host": "local.wolkenkit.io",
+              "port": 3010
+            },
+            "allowAccessFrom": "*"
+          },
+          "node": {
+            "environment": "development"
+          }
+        }
+      }
+    }
+  }
